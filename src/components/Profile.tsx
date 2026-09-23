@@ -17,7 +17,7 @@ export default function Profile({ name, bio, imageUrl }: ProfileProps) {
         className="h-24 w-24 rounded-full object-cover ring-2 ring-zinc-200 dark:ring-zinc-800"
         priority
       />
-      <h1 className="text-xl font-semibold text-zinc-900 dark:text-zinc-50">
+      <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
         {name}
       </h1>
       <p className="max-w-xs text-sm text-zinc-600 dark:text-zinc-400">
